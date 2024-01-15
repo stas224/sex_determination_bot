@@ -15,7 +15,7 @@ from linear_model import extract_features
 
 
 mode = "cnn"
-BOT_TOKEN = '6928592593:AAFU94nt2hY8b5EX1TekFzh28HjnQSveXzU'
+BOT_TOKEN = 'BOT_TOKEN'
 bot = telebot.TeleBot(BOT_TOKEN)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model = Model()
